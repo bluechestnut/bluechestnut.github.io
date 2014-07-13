@@ -5,36 +5,19 @@
 
 <div id="top" class="header">
     <div class="vert-text">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title }}
+        </h1>
     </div>
 </div>
 
 
 <div class="container">
     <div class="row top-row">
-        <div class="col-md-9">
-
+        <div class="col-md-9 blogpost">
             {{ .Content }}
-            
-        </div>
 
-        <!-- Sidebar -->
-        <div class="col-md-3">
-            <div class="well well-sm"> <!-- Post-specific stats -->
-                <h4>{{ .Date.Format "January 2, 2006" }}<br>
-                <small>{{ .WordCount }} words</small></h4>
-                <hr>
-                <strong>Categories</strong>
-                <ul class="list-unstyled">
-                {{ range .Params.categories }}
-                    <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
-                {{ end }}
-                </ul>
-                <hr>
-                <strong>Tags</strong><br>
-                {{ range .Params.tags }}<a class="label label-default" href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
-            </div>
-            {{ template "chrome/menu.html" . }}
+            <hr/>
+            <small>{{ .Date.Format "January 2, 2006" }}</small>
         </div>
     </div>
 

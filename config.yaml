@@ -1,8 +1,7 @@
 ---
-baseurl: "http://dahernan.github.io"
-title: "dahernan's blog"
+baseurl: "http://bluechestnut.com"
+title: "Bluechestnut LTD"
 canonifyurls: true
-disqusShortname: "dahernan"
 permalinks:
   post: /:year/:month/:day/:title/
 ---

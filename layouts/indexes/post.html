@@ -1,17 +1,26 @@
+<!doctype html>
+<html lang="en">
 {{ template "chrome/header.html" . }}
 <body>
 {{ template "chrome/navbar.html" . }}
+
+
+<div id="top" class="header">
+    <div class="vert-text">
+        <h1>bluechestnut blog</h1>
+    </div>
+</div>
+
 <div class="container">
+
+
     <div class="row">
         <div class="col-md-9">
-            <div class="well well-sm">
-                <strong>Blog Post Archive</strong>
-                <ul class="list-unstyled">
-                    {{ range .Data.Pages }}
-                        {{ .Render "li" }}
-                    {{ end}}
-                </ul>
-            </div>
+            <ul class="list-unstyled">
+                {{ range .Data.Pages }}
+                    {{ .Render "li" }}
+                {{ end}}
+            </ul>
         </div>
 
         <!-- Sidebar -->
@@ -19,6 +28,12 @@
         {{ template "chrome/menu.html" . }}
         </div>
     </div>
-{{ template "chrome/footer.copyright.html" . }}
+
 </div>
+
+{{ template "chrome/footer.copyright.html" . }}
+
 {{ template "chrome/footer.html" . }}
+
+</body>
+</html>

@@ -6,15 +6,7 @@ tags:
   - "intro"
 ---
 
-This is a blog post in bluechestnut.
-
-Subtle Sidebar is the Perfect Template for your Next Portfolio Website Project!
-This template really has it all. It's up to you to customize it to your liking! It features some fresh photography courtesy of Death to the Stock Photo.
-This is a blog post in bluechestnut.
-
-Subtle Sidebar is the Perfect Template for your Next Portfolio Website Project!
-This template really has it all. It's up to you to customize it to your liking! It features some fresh photography courtesy of Death to the Stock Photo.
-This is a blog post in bluechestnut.
+Well here is a test, to check that blogging is working :)
 
 !hello
 
